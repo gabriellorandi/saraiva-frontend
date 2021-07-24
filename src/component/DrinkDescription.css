@@ -1,25 +1,27 @@
 .div-center {
+    display: flex;
     text-align: center;
-    padding-top: 20px;    
+    margin: 50px;    
 }
 
-.td-image{
-    padding-left: 100px;
-    padding-top: 40px;
-    width: 35%;
-    vertical-align: top;
+.td-image{    
+    width: 50%;    
+}
+
+.div-frame-photo{
+    padding-left: 20%;
 }
 
 .div-inline {
     display: flex;
-    padding-left: 10px;
+    align-content: center;
+    margin: 5px;
 }
 
 .td-text {
-    width: 60%;
+    width: 50%;
     vertical-align: top;
-    padding-top: 30px;
-    padding-right: 30px;
+    padding: 30px;
 }
 
 .p-1 {
@@ -34,7 +36,7 @@ li {
 }
 
 .drink-name{
-    padding-left: 180px;
+    padding-bottom: 3%;
     font-size: 40px;
 }
 
@@ -45,8 +47,8 @@ li {
 
 }
 
-h6 {
-    font-size: 30px;
+.topics-description {
+    font-size: 40px;
 }
 
 .p-2 {
@@ -54,7 +56,7 @@ h6 {
 }
 
 .div-block {
-    padding-top: 20px;
+    width: 80%;
     text-align: center;
     display: block;
 }

@@ -86,14 +86,14 @@ class SearchBar extends Component {
                     <p className="name-searchBar" > Massive Drinks </p>
 
                     
-                    <MDBCol md="6">
-                        <div className="input-group md-form form-sm form-1 pl-1 seach-bar">
+                    <MDBCol md="5">
+                        <div className="input-group md-form form-sm form-1 pl-0 seach-bar">
                             <div className="input-group-prepend">
                                 <span className="input-group-text purple lighten-3" id="basic-text1">
                                     <MDBIcon className="text-white" icon="search" />
                                 </span>
                             </div>
-                            <input className="form-control my-0 py-0"
+                            <input className="form-control my-0 py-3"
                                             value={this.props.keyword}
                                             placeholder={"Search drinks"}            
                                             onChange={this._onChange}
