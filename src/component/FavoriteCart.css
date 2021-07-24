@@ -1,0 +1,46 @@
+li{
+	display: block ;
+}
+
+ul {
+	padding-left: 0%;
+	background-color: white;
+}
+
+
+.fav-table {
+	display:inline-table;
+}
+
+.name-favorite{
+    padding-left:1.5rem;
+	font-size: 25px;
+    font-family: 'Zen Loop', cursive;
+    color: rgb(214, 42, 185);
+    text-shadow: 0.5px 0.5px #d61b1b;
+}
+
+.div-flex {
+	margin: 5px;
+	display: flex;
+}
+
+.div-block {
+	padding-left: 6px;
+	display: block;
+	padding-top: 0%;
+}
+
+.favorite-cart {
+	padding: 6vh 34vw;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	position: relative
+}
+
+h2{
+	padding-top: 100px;
+	color: rgb(182, 167, 167);
+}

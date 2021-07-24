@@ -1,0 +1,15 @@
+.Photo {
+	margin: 15px;
+	cursor: pointer;
+	overflow: hidden;
+	width: 18vw;
+	height: 21vw;
+}
+
+.photo-legend {
+	display: flex;
+	font-size: 10px;
+	margin-block-start: 0.5em;
+	margin-block-end: 0.5em;	
+}
+
