@@ -82,11 +82,12 @@ class SearchBar extends Component {
         return (
             <div>
                 <div className="div-searchBar">
-                    <img className="logo" alt="" src={logo} ></img>
+                    <img className="logo" alt="" src={logo} style={{width: '5vw',height: '5vw'}}></img>
                     <p className="name-searchBar" > Massive Drinks </p>
 
-                    <MDBCol md="7">
-                        <div className="input-group md-form form-sm form-1 pl-0">
+                    
+                    <MDBCol md="6">
+                        <div className="input-group md-form form-sm form-1 pl-1 seach-bar">
                             <div className="input-group-prepend">
                                 <span className="input-group-text purple lighten-3" id="basic-text1">
                                     <MDBIcon className="text-white" icon="search" />

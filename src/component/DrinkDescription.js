@@ -21,7 +21,7 @@ class DrinkDescription extends Component {
             ingredients: [],
             url: String(window.location.href),
             shareTitle: "Massive drinks",
-            shareSize: 15,
+            shareSize: 50,
             appIdFacebook:2576877819274909
 
         };  
@@ -118,7 +118,7 @@ class DrinkDescription extends Component {
                             <tr>
                                 <td className="td-image">
                                     <div className="div-inline">
-                                        <h5>{this.state.data.strDrink}</h5>	
+                                        <p className="drink-name">{this.state.data.strDrink}</p>	
                                         {hasStar(this.state.data)?
                                          <img
                                             onClick={() => onClickFull(this.state.data)}
@@ -140,7 +140,7 @@ class DrinkDescription extends Component {
                                     <img
                                         src={this.state.data.strDrinkThumb}
                                         alt={this.state.data.strDrink}
-                                        style={{width: '28vw',height: '28vw'}}
+                                        style={{width: '25vw',height: '25vw'}}
                                     />	
                                     <p className="p-2">Glass : {this.state.data.strGlass}</p>
                                 </td>

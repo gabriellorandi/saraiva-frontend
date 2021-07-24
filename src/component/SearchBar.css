@@ -8,9 +8,9 @@
 }
 
 .link-favorites{
-    padding-top: 1.2rem;
-    padding-right:1.5rem;
-	font-size: 25px;
+    padding-top: 30px;
+    padding-left: 30px;
+	font-size: 50px;
     font-family: 'Zen Loop', cursive;
 }
 
@@ -23,7 +23,7 @@
 .name-searchBar{
     padding-top: 1.2rem;
     padding-right:1.5rem;
-	font-size: 25px;
+	font-size: 70px;
     font-family: 'Zen Loop', cursive;
     color: rgb(214, 42, 185);
     text-shadow: 0.5px 0.5px #d61b1b;
@@ -43,6 +43,10 @@
     margin-top: -15px;
 }
 
+.seach-bar{
+    padding-top: 30px;
+}
+
 .logo {
     padding-top: 10px;
     width: 50px;
@@ -50,7 +54,7 @@
 }
 
 p {
-    font-size: 8px;
+    font-size: 25px;
     color: rgb(83, 22, 26);
 }
 

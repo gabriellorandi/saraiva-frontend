@@ -23,14 +23,19 @@
 }
 
 .p-1 {
-    font-size: 8px;    
+    font-size: 30px;    
     margin-left: 80px;
     margin-right: 80px;
     background-color: lavender;
 }
 
 li {
-    font-size: 8px; 
+    font-size: 30px; 
+}
+
+.drink-name{
+    padding-left: 180px;
+    font-size: 40px;
 }
 
 .ul-block {
@@ -40,8 +45,12 @@ li {
 
 }
 
+h6 {
+    font-size: 30px;
+}
+
 .p-2 {
-    font-size: 8px;    
+    font-size: 30px;    
 }
 
 .div-block {
